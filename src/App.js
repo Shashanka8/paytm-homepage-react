@@ -1,9 +1,14 @@
 import "./App.css";
+
 import BookBuy from "./components/BookBuy";
 import BusinessTools from "./components/BusinessTools";
+import Footer from "./components/Footer";
+import FooterLine from "./components/FooterLine";
 import Header from "./components/Header";
 import HeaderInfo from "./components/HeaderInfo";
 import Hero from "./components/Hero";
+import PaytmMoney from "./components/PaytmMoney";
+import PaytmTravel from "./components/PaytmTravel";
 import RechargePay from "./components/RechargePay";
 import Section10 from "./components/Section10";
 import Section11 from "./components/Section11";
@@ -42,6 +47,16 @@ function App() {
 
       {/* Business Tools section */}
       <BusinessTools />
+
+      {/* Paytm money section */}
+      <PaytmMoney />
+
+      {/* Paytm travel section */}
+      <PaytmTravel />
+
+      {/* Footer */}
+      <Footer />
+      <FooterLine />
     </div>
   );
 }

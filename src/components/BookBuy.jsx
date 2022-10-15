@@ -50,12 +50,12 @@ function BookBuy() {
 
   return (
     <section style={{ background: "#0f4a8a" }}>
-      <div class="max-w-7xl m-auto">
-        <div class="py-16">
-          <h1 class="text-white font-bold text-4xl flex items-center">
+      <div className="max-w-7xl m-auto">
+        <div className="py-16">
+          <h1 className="text-white font-bold text-4xl flex items-center">
             Book & Buy on Paytm.
           </h1>
-          <div class="flex flex-wrap xl:flex-nowrap mt-6">
+          <div className="flex flex-wrap xl:flex-nowrap mt-6">
             {cardsData.map((data) => (
               <BookBuyCard key={data.imgUrl} {...data} />
             ))}

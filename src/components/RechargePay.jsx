@@ -24,14 +24,14 @@ function RechargePay() {
   return (
     <section
       style={{ background: "#00baf2" }}
-      class="mt-72 sm:mt-[34rem] md:mt-0"
+      className="mt-72 sm:mt-[34rem] md:mt-0"
     >
-      <div class="max-w-7xl m-auto">
-        <div class="py-16">
-          <h1 class="text-white font-bold text-4xl flex items-center">
+      <div className="max-w-7xl m-auto">
+        <div className="py-16">
+          <h1 className="text-white font-bold text-4xl flex items-center">
             Recharge & Pay Bills on Paytm.
           </h1>
-          <div class="flex flex-wrap xl:flex-nowrap mt-6">
+          <div className="flex flex-wrap xl:flex-nowrap mt-6">
             {cardsData.map((data) => (
               <RechargeCard key={data.imgSrc} {...data} />
             ))}
