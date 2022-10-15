@@ -1,0 +1,12 @@
+.section1-card > div > div,
+.section2-card > div > div,
+.arrow > div {
+  margin-left: 6px;
+  padding: 3px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  transition: all 0.3s ease;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
