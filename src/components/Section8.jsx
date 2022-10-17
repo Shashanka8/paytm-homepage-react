@@ -3,6 +3,7 @@ import React from "react";
 import Image1 from "../assets/section8_1.webp";
 import Image2 from "../assets/section8_2.webp";
 import BGImage from "../assets/section8_bg.webp";
+import LearnMoreBtn from "./LearnMoreBtn";
 
 function Section8() {
   return (
@@ -29,16 +30,7 @@ function Section8() {
                 commission-free. Buy stocks & mutual funds that can help you
                 create wealth & realise your dreams.
               </span>
-              <a
-                href="/"
-                className="group flex cursor-pointer py-4 px-6 relative text-[17px] font-medium text-white bg-paytmhover rounded-3xl w-[160px] leading-5 hover:bg-paytm hover:transition-all hover:duration-300 hover:ease-out"
-              >
-                <div className="mr-2.5">Learn More</div>
-                <div className="arrow">
-                  <span className="hidden group-hover:inline">-</span>
-                  <div className="absolute top-[23px] right-7 group-hover:right-6"></div>
-                </div>
-              </a>
+              <LearnMoreBtn />
             </div>
           </div>
           <img
